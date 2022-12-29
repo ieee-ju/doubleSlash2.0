@@ -5,4 +5,5 @@
 3. Need Devfolio Registration Portal
 4. Sponsor and Speaker Pics
 5. Prize Distribution or Prizes Section
-6. A proper Footer.(Completed)
+6. A proper footer. [Needs modification]
+7. Need Double Slash Logo.
