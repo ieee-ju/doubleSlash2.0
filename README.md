@@ -5,4 +5,4 @@
 3. Need Devfolio Registration Portal
 4. Sponsor and Speaker Pics
 5. Prize Distribution or Prizes Section
-6. A proper Footer.
+6. A proper Footer.(Completed)
