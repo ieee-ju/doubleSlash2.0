@@ -1,8 +1,8 @@
 # doubleSlash
 
-1. We need background Images, one promo video, sponsor list, hack Domain BG Pics, color palette.
-2. Need Devfolio Registration Portal
-3. Sponsor and Speaker Pics
-4. Prize Distribution or Prizes Section
-5. A proper Footer.
-6. Last Year Statistics
+1. We need background Images, sponsor list, Hackathon Domain BG Pics.
+2. One Promo Video
+3. Need Devfolio Registration Portal
+4. Sponsor and Speaker Pics
+5. Prize Distribution or Prizes Section
+6. A proper Footer.
