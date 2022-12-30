@@ -6,6 +6,5 @@
 4. Sponsor and Speaker Pics
 5. Prize Distribution or Prizes Section
 6. Footer Needs modification
-7. Need Double Slash Logo.
-8. IEEE JUSB logo with latest copyright
-9. Discord server 
+7. IEEE JUSB logo with latest copyright
+8. Discord server
