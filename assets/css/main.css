@@ -1,19 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:500,700");
+
 html {
   overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
-  width: 6px; /* width of the entire scrollbar */
+  width: 6px;
+  /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-  background: #292929; /* color of the tracking area */
+  background: #292929;
+  /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #f7df07; /* color of the scroll thumb */
-  border-radius: 15px; /* roundness of the scroll thumb */
+  background-color: #f7df07;
+  /* color of the scroll thumb */
+  border-radius: 15px;
+  /* roundness of the scroll thumb */
 }
 
 /* #0000ff */
@@ -123,7 +128,7 @@ ol li {
 
 .section-title {
   font-size: 30px;
-  color: #fff !important ;
+  color: #fff !important;
   line-height: 52px;
   font-weight: 700;
   text-align: center;
@@ -266,10 +271,12 @@ ol li {
 .about-content ul li {
   font-size: 18px;
 }
+
 .about-text p {
   font-size: 20px;
   letter-spacing: 0.5px;
 }
+
 .btn-border {
   color: #212121;
   background-color: transparent;
@@ -525,6 +532,7 @@ a.back-to-top:focus {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   40% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -538,6 +546,7 @@ a.back-to-top:focus {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   40% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -599,6 +608,7 @@ a.back-to-top:focus {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -608,6 +618,7 @@ a.back-to-top:focus {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -854,22 +865,27 @@ a.back-to-top:focus {
     background: #fff !important;
     box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
   }
+
   .section-title {
     color: white;
   }
+
   .navbar-expand-lg .navbar-brand,
   .navbar-expand-lg .navbar-toggler {
     margin: 0px 15px;
   }
+
   .navbar-nav {
     padding: 5px 15px;
   }
+
   .navbar-expand-lg .navbar-nav .nav-link {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0px 40px;
     color: #212121;
   }
+
   .about-text p {
     font-size: 16px;
   }
@@ -880,19 +896,24 @@ a.back-to-top:focus {
     background: #1c1c1c !important;
     box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
   }
+
   .navbar-expand-lg .navbar-brand,
   .navbar-expand-lg .navbar-toggler {
     margin: 0px 15px;
   }
+
   .section-title {
     color: white;
   }
+
   h2.section-title.wow.fadeInUp {
     color: aliceblue;
   }
+
   .navbar-nav {
     padding: 5px 15px;
   }
+
   .navbar-expand-lg .navbar-nav .nav-link {
     margin-top: 0;
     margin-bottom: 0;
@@ -905,9 +926,11 @@ a.back-to-top:focus {
     margin-top: 20px;
     text-align: center;
   }
+
   .section-title {
     font-size: 30px !important;
   }
+
   #sponsor-heading {
     font-size: 40px !important;
   }
@@ -974,6 +997,7 @@ a.back-to-top:focus {
 
 #prizes .event-item {
   position: relative;
+  margin-top: 10%;
 }
 
 #prizes .event-item .overlay-text {
@@ -1070,6 +1094,7 @@ a.back-to-top:focus {
 #speaker .event-item .overlay-text:hover {
   opacity: 1;
 }
+
 /*  Speaker Ends   */
 
 /* ==========================================================================
@@ -1142,6 +1167,7 @@ h1 {
 .counter-section .counter .icon i {
   color: #fff !important;
 }
+
 .counter-section .counter .icon {
   background-image: linear-gradient(65deg, #2b72ad 0, #1c768f 50%) !important;
 }
@@ -1149,6 +1175,7 @@ h1 {
 .video-text {
   text-align: center;
 }
+
 .video-text i {
   color: #fff !important;
 }
@@ -1398,10 +1425,12 @@ h1 {
   flex: 0 0 18%;
   max-width: 18%;
 }
+
 #information-bar .inforation-wrapper i {
   background-image: linear-gradient(65deg, #2b72ad 0, #1c768f 50%);
   font-weight: 700;
 }
+
 .schedule .card-header {
   position: relative;
   padding: 35px 40px 35px 224px;
@@ -2165,12 +2194,15 @@ footer {
 #footer .one-p {
   font-size: 15px;
 }
+
 #footer .footer-content h2 {
   font-size: 25px;
 }
+
 #footer .footer-content ul li a {
   font-size: 15px;
 }
+
 .site-info {
   position: relative;
   padding: 30px 0;
@@ -2218,6 +2250,7 @@ footer {
 .social-icons-footer .facebook a:hover {
   border-color: #2b4ead;
 }
+
 .social-icons-footer .facebook a i,
 .social-icons-footer .twitter a i,
 .social-icons-footer .pinterest a i {
@@ -2539,6 +2572,7 @@ footer {
   background: #fff;
   color: #212121;
 }
+
 .blog-item .icon,
 .hack-desc {
   display: none;
@@ -2601,6 +2635,7 @@ img#nav-logo {
   color: #fff;
   margin-top: 25px;
 }
+
 #hero-area .contents .banner-btn {
   margin-top: 35vh;
 }
@@ -2633,9 +2668,11 @@ img#nav-logo {
 #clock {
   font-size: 30px;
 }
+
 #clock {
   margin-bottom: 80px;
 }
+
 #clock div {
   text-align: center;
   margin: 10px;
@@ -2676,6 +2713,7 @@ div#clock {
 #hero-image {
   display: none;
 }
+
 @media (max-width: 720px) {
   .hero-area-bg {
     /* background: url(../img/hero-area.jpg) no-repeat; */
@@ -2688,10 +2726,12 @@ div#clock {
   #hero-image {
     display: block;
   }
+
   #hero-area .contents .banner-btn {
     margin-top: 0px;
   }
 }
+
 @media (max-width: 445px) {
   .hero-area-bg {
     /* background: url(../img/hero-area.jpg) no-repeat; */
@@ -2700,13 +2740,16 @@ div#clock {
     background-position: center;
     height: 100vh;
   }
+
   #hero-image {
     display: block;
   }
+
   #hero-area .contents .banner-btn {
     margin-top: 0px;
   }
 }
+
 @media (max-width: 768px) {
   #count .count-wrapper {
     margin-top: 100px;
@@ -2715,25 +2758,31 @@ div#clock {
     color: white;
     padding-bottom: 30px;
   }
+
   #clock div {
     width: 70px;
     padding: 10px 0;
     margin: 10px 8px;
   }
+
   #clock div h3 {
     font-size: 28px;
     margin-bottom: 10px;
   }
+
   #clock div h4 {
     font-size: 14px;
     font-weight: 500;
   }
+
   #nav-container {
     background: #1c1c1c;
   }
+
   .about-content ul li {
     font-size: 17px !important;
   }
+
   .prize-desc {
     display: block !important;
   }
@@ -2743,16 +2792,19 @@ h2#last-stats {
   color: white;
   margin-bottom: 20px;
 }
+
 img#footer-logo {
   width: 100px;
   margin-top: 50px;
 }
+
 /* section#faq {
   background-color: #fcfd9b;
 } */
 div#clock {
   margin-bottom: 0;
 }
+
 section#count {
   height: 0;
 }
@@ -2766,96 +2818,121 @@ section#count {
   margin-bottom: 50px;
   color: #000 !important;
 }
+
 /* Dark Theme */
 section#about {
   background: #000;
   color: #fff;
 }
+
 section#information-bar {
   background: #000;
 }
+
 section#domains,
 section#prizes {
   background: #000;
 }
+
 p.wow.fadeInDown.animated,
 h2.section-title.wow.fadeInUp.animated,
 #sponsors .section-title-header {
   color: #fff;
   font-size: 20px;
 }
+
 #information-bar .inforation-wrapper {
   background: #1c1c1c;
 }
+
 #information-bar .inforation-wrapper {
   background-image: linear-gradient(0deg, #000 0, #000c44 100%);
 }
+
 #information-bar ul li span b {
   color: aliceblue;
 }
+
 span {
   color: white;
 }
+
 section#schedules,
 section#faq {
   background: #000;
 }
+
 .schedule .nav-tabs .nav-link,
 div#headingOne,
 div#headingOne1,
 div#headingOne3 {
   background: #1c1c1c;
 }
+
 .schedule .show .card-body {
   background: #333333;
 }
+
 .schedule .card-header h4,
 p,
 h3 {
   color: white;
 }
+
 .schedule .card-header .name {
   color: beige;
 }
+
 .schedule .nav-tabs .nav-link,
 #information-bar .inforation-wrapper,
 .blog-item .icon {
   box-shadow: 0 8px 24px #000;
 }
+
 .schedule .item-text h4 {
   color: white;
 }
+
 .schedule .item-text h5 {
   color: aliceblue;
 }
+
 .schedule .schedule-tab-content .tab-content,
 #contact-text .contact-wrapper {
   box-shadow: 0 8px 24px #000;
 }
+
 .blog-item .descr {
   background: #1c1c1c;
   color: whitesmoke;
 }
+
 .blog-item .descr h3 a {
   color: white;
 }
+
 section#contact-text,
 footer {
   background: #000;
 }
+
 #contact-text .contact-wrapper {
   background: #1c1c1c;
 }
+
 .single-intro-text {
   box-shadow: 0 8px 24px #000;
   background: #1c1c1c;
 }
+
 .single-intro-text:hover {
   box-shadow: 0 8px 24px #2c2c2c;
 }
+
 .blog-item {
   box-shadow: 0 8px 24px #000;
 }
+
 .blog-item:hover {
   box-shadow: 0 8px 24px #2c2c2c;
 }
@@ -2863,12 +2940,15 @@ footer {
 .top-nav-collapse {
   background: #0f0f0f !important;
 }
+
 .top-nav-collapse .navbar-nav .nav-link {
   color: #fff !important;
 }
+
 i {
-  color: #2b72ad !important ;
+  color: #2b72ad !important;
 }
+
 h2.section-title.wow.fadeInUp.animated {
   font-size: 40px;
 }
@@ -2876,6 +2956,7 @@ h2.section-title.wow.fadeInUp.animated {
 li.stylish-list {
   font-size: 40px;
 }
+
 .prize-desc {
   display: none;
 }
