@@ -1307,6 +1307,10 @@ h1 {
   color: #000;
 }
 
+#sponsors .section-title-header h2 {
+  margin-top: 5%;
+}
+
 #sponsors .sponsors-logo a img {
   margin: 30px;
 }
