@@ -43,7 +43,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
 }
@@ -67,7 +67,7 @@ p {
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   margin: 0px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 ul,
@@ -138,13 +138,13 @@ ol li {
 }
 
 .section-title:before {
-  content: "[";
+  content: "/*";
   color: #1c768f;
   padding-right: 10px;
 }
 
 .section-title:after {
-  content: "]";
+  content: "*/";
   color: #1c768f;
   padding-left: 10px;
 }
@@ -273,8 +273,13 @@ ol li {
 }
 
 .about-text p {
-  font-size: 20px;
-  letter-spacing: 0.5px;
+  font-size: 22px !important ;
+  letter-spacing: 1px;
+}
+
+.about-text h2 {
+  font-size: 40px !important ;
+  /* letter-spacing: 1px; */
 }
 
 .btn-border {
@@ -2732,7 +2737,7 @@ div#clock {
 @media (max-width: 720px) {
   .hero-area-bg {
     /* background: url(../img/hero-area.jpg) no-repeat; */
-    background: url(../img/background/LandingPage2.png) no-repeat !important;
+    background: url(../img/background/phoneBG.png) no-repeat !important;
     background-size: cover !important;
     background-position: center;
     height: 100vh;
@@ -2743,14 +2748,14 @@ div#clock {
   }
 
   #hero-area .contents .banner-btn {
-    margin-top: 0px;
+    margin-top: 40px;
   }
 }
 
 @media (max-width: 445px) {
   .hero-area-bg {
     /* background: url(../img/hero-area.jpg) no-repeat; */
-    background: url(../img/background/LandingPage2.png) no-repeat !important;
+    background: url(../img/background/phoneBG.png) no-repeat !important;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -2761,7 +2766,7 @@ div#clock {
   }
 
   #hero-area .contents .banner-btn {
-    margin-top: 0px;
+    margin-top: 40px;
   }
 }
 

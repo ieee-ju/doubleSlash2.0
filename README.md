@@ -5,3 +5,4 @@
 3. Sponsor and Speaker Pics
 4. Prize Distribution or Prizes Section
 5. Discord server
+6. Need a Pre-Loader gif
