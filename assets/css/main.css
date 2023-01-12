@@ -939,9 +939,16 @@ a.back-to-top:focus {
   transition: all 0.3s ease-in-out;
 }
 
-#speaker .event-item .content h3 {
-  font-size: 16px;
+#speaker .event-item .content ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 24px;
   text-transform: uppercase;
+  margin-bottom: 8%;
+}
+#speaker .event-item .content ul li {
+  margin-right: 4%;
 }
 
 #speaker .event-item .content a {
